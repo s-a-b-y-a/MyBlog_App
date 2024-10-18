@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from 'next/image';
 
 export default function About() {
@@ -21,10 +21,10 @@ export default function About() {
             <div className="w-full md:w-2/3 flex flex-col justify-center ">
               <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">About Me</h1>
               <p className="text-gray-600 dark:text-gray-50 text-lg mb-4">
-                Hello! I'm Sabyasachi, a passionate software developer and tech enthusiast. I created this blog to share my experiences, tips, and tutorials on various programming languages and technologies. I believe that learning should be a continuous journey, and I'm here to help others on their path to mastering the art of coding.
+                Hello! I am Sabyasachi, a passionate software developer and tech enthusiast. I created this blog to share my experiences, tips, and tutorials on various programming languages and technologies. I believe that learning should be a continuous journey, and I am here to help others on their path to mastering the art of coding.
               </p>
               <p className="text-gray-600 dark:text-gray-50 text-lg">
-                Whether you're just starting out or looking to sharpen your skills, you'll find a variety of resources and insights here. Let's explore the world of programming together!
+                Whether you are just starting out or looking to sharpen your skills, you will find a variety of resources and insights here. Let us explore the world of programming together!
               </p>
             </div>
           </div>
@@ -34,9 +34,9 @@ export default function About() {
       <section className="py-16 bg-gray-50 dark:bg-gray-800 dark:text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">Sabyasachi's Journey as a Coder</h2>
+            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">Journey as a Coder</h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-50">
-              From curious beginner to seasoned developer, here's how Sabyasachi navigated the world of programming.
+              From curious beginner to seasoned developer, here is how Sabyasachi navigated the world of programming.
             </p>
           </div>
           <div className="space-y-12">
@@ -45,9 +45,9 @@ export default function About() {
                 <img src="/curiosity.jpg" alt="sabya as a beginner" className="w-full rounded-lg shadow-lg h-64" />
               </div>
               <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
-                <h3 className="text-2xl font-bold text-gray-800 dark:text-white dark:text-white">The Spark of Curiosity</h3>
+                <h3 className="text-2xl font-bold text-gray-800 dark:text-white">The Spark of Curiosity</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  Sabyasachi’s coding journey began in college when he stumbled upon his first programming language—C. What started as a simple curiosity quickly turned into a passion, as Harry spent countless hours experimenting with code, building small projects, and learning the fundamentals of software development.
+                  coding journey of sabyasachi began in college when he stumbled upon his first programming language—C. What started as a simple curiosity quickly turned into a passion, as he spent countless hours experimenting with code, building small projects, and learning the fundamentals of software development.
                 </p>
               </div>
             </div>
@@ -59,7 +59,7 @@ export default function About() {
               <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Diving Deeper</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  After mastering the basics, Sabyasachi’s thrive for knowledge grew. He began exploring more complex topics such as data structures, algorithms, and web development. Enrolling in online courses and attending coding bootcamps, He quickly expanded his skill set, taking on freelance projects to apply his knowledge in real-world scenarios.
+                  After mastering the basics, Sabyasachi’s thirst for knowledge grew. He began exploring more complex topics such as data structures, algorithms, and web development. Enrolling in online courses and attending coding bootcamps, he quickly expanded his skill set, taking on freelance projects to apply his knowledge in real-world scenarios.
                 </p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function About() {
               <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Taking on Challenges</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  With several years of experience under his belt, Sabyasachi began tackling more significant challenges. From contributing to open-source projects to developing his own applications, He continued to push his limits, always looking for opportunities to learn and grow. His journey wasn’t without its setbacks, but each obstacle was a stepping stone to becoming the skilled developer he is today.
+                  With several years of experience under his belt, Sabyasachi began tackling more significant challenges. From contributing to open-source projects to developing his own applications, he continued to push his limits, always looking for opportunities to learn and grow. His journey wasn’t without its setbacks, but each obstacle was a stepping stone to becoming the skilled developer he is today.
                 </p>
               </div>
             </div>
@@ -83,14 +83,13 @@ export default function About() {
               <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Giving Back</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  Today, Sabyasachi is not only a proficient coder but also a mentor to others. He regularly contributes to the programming community by writing tutorials, giving talks, and helping new coders find their footing in the world of software development. For him, coding is more than just a profession—it’s a lifelong journey of learning and sharing knowledge.
+                  Today, Sabyasachi is not only a proficient coder but also a mentor to others. He regularly contributes to the programming community by writing tutorials, giving talks, and helping new coders find their footing in the world of software development. For him, coding is more than just a profession—it is a lifelong journey of learning and sharing knowledge.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-
     </div>
   );
 }
